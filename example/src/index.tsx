@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Select } from 'fully-customizable-select';
+import All from 'fully-customizable-select';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
@@ -24,6 +24,6 @@ const options = [
 
 root.render(
     <React.StrictMode>
-        <Select placeHolder={'ssss'} options={options} />
+        <All.Select placeHolder={'ssss'} options={options} />
     </React.StrictMode>,
 );
