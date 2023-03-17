@@ -31,10 +31,10 @@ jobs:
         run: npm i
 
       - name: Build
-        run: npm run build --passWithNoTests
+        run: npm run build
 
       - name: Publish
-        run: npm publish --passWithNoTests
+        run: npm publish
 
         env:
           # We need this to our NPM account
