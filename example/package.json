@@ -1,0 +1,12 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "fully-customizable-select": "^1.1.1",
+    "parcel": "^2.8.3"
+  }
+}
