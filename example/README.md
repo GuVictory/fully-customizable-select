@@ -1,3 +1,5 @@
+# fully-customizable-select
+
 [![NPM version][npm-image]][npm-url]
 [![Build][github-build]][github-build-url]
 ![npm-typescript]
@@ -6,6 +8,16 @@
 Пакет с селектом, который вы можете стилизовать в соответствии с вашими потребностями.
 
 [**Live Demo**](https://guvictory.github.io/fully-customizable-select/)
+
+## Как запустить страницу с примером?
+
+В каталоге примера запустите все зависимости:
+
+### `npm install`
+
+### `npm run start`
+
+Откройте [http://localhost:1234](http://localhost:1234)
 
 ## Установка:
 
@@ -95,7 +107,7 @@ export default function App() {
 
 ## customOption Props
 
-Для того, чтобы переопределить базовый компонент пункта списка, можно передать свой, но у него должны быть пропсы, описанные выше в `options type`.
+Для того, чтобы переопределить базовый компонент пункта списка, можно передать свой, но у него должны быть пропсы, описанные выше в `options type`:
 
 [npm-url]: https://www.npmjs.com/package/fully-customizable-select
 [npm-image]: https://img.shields.io/npm/v/fully-customizable-select
